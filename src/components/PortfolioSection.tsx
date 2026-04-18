@@ -4,40 +4,40 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Умный помощник по выборам",
-    category: "AI/ML и веб-разработка",
-    image: "/omgekeerdestemwijzer-banner.png",
+    title: "Ресторан «Очаг»",
+    category: "Сайт для ресторана",
+    image: "/restaurant-website-design.png",
     description:
-      "AI-приложение для выборов. Пользователи задают вопросы о позициях партий и получают 100% фактические ответы из официальных программ с использованием RAG-технологии.",
-    url: "https://de-omgekeerde-stemwijzer.onrender.com/",
-    tags: ["Next.js", "AI/ML", "RAG", "TypeScript"],
+      "Современный сайт для ресторана с онлайн-меню, галереей блюд и формой бронирования столиков. Количество онлайн-броней выросло вдвое за первый месяц.",
+    url: "#portfolio",
+    tags: ["Онлайн-меню", "Бронирование", "Галерея", "Адаптивный дизайн"],
   },
   {
-    title: "Автомойка Tahsin",
-    category: "Веб-дизайн и разработка",
-    image: "/autopoetsbedrijf-tahsin-project.png",
+    title: "Кофейня «Зерно»",
+    category: "Сайт для кафе",
+    image: "/creative-portfolio-website.png",
     description:
-      "Профессиональный сайт для автомойки с 20-летним опытом. Полная презентация услуг, автомойки и гаража с современным адаптивным дизайном.",
-    url: "https://www.autopoetsbedrijftahsin.nl/",
-    tags: ["React", "Next.js", "Tailwind CSS"],
+      "Уютный сайт для кофейни с интерактивным меню напитков, акциями и подпиской на новости. Помог привлечь новую аудиторию через поисковые системы.",
+    url: "#portfolio",
+    tags: ["Меню напитков", "Акции", "SEO", "Карты"],
   },
   {
-    title: "Кадровое агентство CAN",
-    category: "Веб-разработка",
-    image: "/can-uitzendbureau-project.png",
+    title: "Барбершоп «Бритва»",
+    category: "Сайт для парикмахерской",
+    image: "/professional-corporate-website.png",
     description:
-      "Кадровое агентство с 30-летним опытом в садоводческом секторе. Сайт с обзором услуг и прямыми контактами для работодателей и соискателей.",
-    url: "https://canbv.nl/",
-    tags: ["Next.js", "React", "Tailwind CSS"],
+      "Стильный сайт для барбершопа с онлайн-записью, прайсом на услуги и портфолио мастеров. Клиенты записываются круглосуточно без звонков.",
+    url: "#portfolio",
+    tags: ["Онлайн-запись", "Прайс", "Мастера", "Адаптивный дизайн"],
   },
   {
-    title: "Портфолио Murat Sahin",
-    category: "Портфолио-сайт",
-    image: "/murat-sahin-portfolio.png",
+    title: "Салон красоты «Глянец»",
+    category: "Сайт для салона",
+    image: "/social-media-graphics.png",
     description:
-      "Профессиональное портфолио full-stack разработчика. Демонстрация проектов, навыков и опыта с современным минималистичным дизайном и темной темой.",
-    url: "https://murat-sahin-dev.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", ".NET Core"],
+      "Элегантный сайт для салона красоты с каталогом услуг, ценами и онлайн-записью. Интеграция с Instagram помогла нарастить аудиторию в соцсетях.",
+    url: "#portfolio",
+    tags: ["Каталог услуг", "Онлайн-запись", "Instagram", "SEO"],
   },
 ]
 
@@ -48,7 +48,7 @@ export function PortfolioSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Наше портфолио</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Ознакомьтесь с подборкой наших последних проектов и узнайте, как мы помогаем бизнесу расти с помощью мощных цифровых решений.
+            Примеры сайтов, которые мы сделали для ресторанов, кафе, парикмахерских и салонов красоты. Каждый проект — под задачи конкретного бизнеса.
           </p>
         </div>
 
